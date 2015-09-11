@@ -5,3 +5,19 @@ h3 {
 ul {
     list-style-type: circle;
 }
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td {
+    border: 5px solid black;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+tr{
+    height: auto;
+}
