@@ -12,18 +12,30 @@ ul {
     list-style-type: circle;
 }
 
-table {
+table.center {
+    margin-left: auto;
+    margin-right: auto;
     border-collapse: collapse;
-    width: 600px;
+    width: 900px;
 }
 
 td {
     border: 5px solid black;
-    width: 200px;
+    width: 300px;
     text-align: center;
     padding: 10px;
 }
 
 tr{
     height: auto;
+}
+
+img {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 8px #2E0F00;
+    padding: 2px;
 }
