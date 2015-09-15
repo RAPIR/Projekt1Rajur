@@ -1,33 +1,31 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: small;
-    background: url("http://goo.gl/IofqHf") no-repeat fixed;
+    background: url("http://goo.gl/0V4RGF") no-repeat fixed;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 h4 {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-h3 {
-    text-align: left;
 }
 
 ul {
     list-style-type: circle;
 }
 
-table.esimene_tabel {
-    margin-left: auto;
-    margin-right: auto;
+table.tabel1 {
     border-collapse: collapse;
-    width: 900px;
+    width: 100%;
 }
 
 td {
     border: 5px solid black;
-    width: 300px;
+    width: 200px;
     text-align: center;
     padding: 10px;
 }
@@ -36,14 +34,24 @@ tr{
     height: auto;
 }
 
+.floating-box_tabel1 {
+    display: inline-block;
+    float: right;
+    padding-right: 180px;
+}
+
+.floating-box_listid {
+    padding-left: 180px;
+    padding-top: 20px;
+    float: left;
+}
+
 img {
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     border: solid 8px #2E0F00;
-    padding: 2px;
+    padding: 1px;
 }
 
 footer {
